@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="slider.Controller">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="pane1" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #94ffb0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label contentDisplay="CENTER" layoutX="102.0" layoutY="158.0" prefHeight="37.0" prefWidth="95.0" text="Color #01" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="195.0" text="SignIn UI" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #94dfff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label contentDisplay="CENTER" layoutX="102.0" layoutY="158.0" prefHeight="37.0" prefWidth="95.0" text="Color #02" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="195.0" text="SignIn UI" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane3" layoutX="20.0" layoutY="20.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #c694ff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label contentDisplay="CENTER" layoutX="102.0" layoutY="158.0" prefHeight="37.0" prefWidth="95.0" text="Color #03" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="195.0" text="SignIn UI" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane4" layoutX="30.0" layoutY="30.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fa7d7d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label contentDisplay="CENTER" layoutX="102.0" layoutY="158.0" prefHeight="37.0" prefWidth="95.0" text="Color #04" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="195.0" text="SignIn UI" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <Pane prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="exit" layoutX="262.0" layoutY="14.0">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/close.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <TextField layoutX="75.0" layoutY="147.0" promptText="Email" style="-fx-min-height: 30; -fx-background-radius: 30;" />
+            <TextField layoutX="75.0" layoutY="188.0" promptText="Password" style="-fx-background-radius: 30; -fx-min-height: 30;" />
+            <Button layoutX="76.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" style="-fx-background-color: #94ffb0; -fx-background-radius: 30; -fx-min-height: 30;" text="Button" />
+            <Label layoutX="76.0" layoutY="87.0" text="Login">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </right>
+</BorderPane>
